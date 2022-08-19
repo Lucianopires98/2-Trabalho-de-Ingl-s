@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #96A755 ;
+}
+
+.menu {
+  border: solid 12px;
+  border-radius: 16px;
+  color: black;
+  width: 80rem;
+  height: 40rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  background-color: #F1B641;
+}
+
+.burger {
+  width: 20px;
+}
+
+.padlock {
+  width: 20px;
+}
+
+h1 {
+  color: black;
+}
+
+.search {
+  width: 45rem;
+  display: flex;
+  justify-content: space-between;
+  border: solid 5px;
+  color: white;
+  border-radius: 12px;
+  background-color: white;
+  position: relative;
+  top: 2rem;
+  left: 16rem;
+}
+
+.product {
+  position: relative;
+  top: 3rem;
+  left: 32rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.description {
+  position: absolute;
+  top: 24rem;
+  left: 38rem;
+}
+
+.circle-1 {
+    background: black;
+    border: 6px solid;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.circle-2 {
+  margin-left: 8px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.caixa-span {
+    display: flex;
+    margin-left: 5px;
+    position: absolute;
+    top: 32rem;
+    left: 38rem;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 28rem;
+    top: 35rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 25rem;
+}
+
+.add {
+    position: absolute;
+    left: 28rem;
+    top: 38rem;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    width: 25rem;
+    cursor: pointer;
+}
+
+@media (max-width:425px) {
+  .menu {
+    border: solid 12px;
+    border-radius: 16px;
+    color: black;
+    width: 20rem;
+    height: 46rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    background-color: #F1B641;
+  }
+
+  .search {
+    width: 16rem;
+    display: flex;
+    justify-content: space-between;
+    border: solid 5px;
+    color: white;
+    border-radius: 12px;
+    background-color: white;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+  }
+  
+  .product {
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+  }
+  
+  .description {
+    position: absolute;
+    top: 24rem;
+    left: 9rem;
+  }
+
+  .description p {
+    width: 200px;
+  }
+  
+  .caixa-span {
+    display: flex;
+    margin-left: 5px;
+    position: absolute;
+    top: 37rem;
+    left: 8rem;
+}
+
+.amount {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 6rem;
+  top: 40rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 14rem;
+}
+
+.add {
+  position: absolute;
+  left: 6rem;
+  top: 43rem;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  width: 14rem;
+  cursor: pointer;
+}
+  
+}
